@@ -2,7 +2,6 @@ def sosu():
     n = int(input())
     m = int(input())
     sosu_list = []
-    sum_sosu = 0
     count = 0
 
     for sosu in range(n, m+1):
