@@ -17,13 +17,12 @@ def sosu(num):
     if num == 1:
         return False
     else:
-        for i in range(2, int(num ** 0.5)+1):
-            if num % i == 0:
+        for baesu in range(2, int(num ** 0.5) + 1):
+            if num % baesu == 0:
                 return False
         return True
 
 if __name__ == "__main__":
-    ### M, N 입력 받기
     m, n = map(int, input().split())
     for i in range(m, n+1):
         if sosu(i):
