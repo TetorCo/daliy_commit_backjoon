@@ -34,5 +34,5 @@ for card in card_num:
         print(c[card], end=' ')
     else: print('0', end=' ')
 
-### 한 줄 코딩
+### 한 줄 코딩 어려워....
 print(' '.join(f"{c[card]}" if card in c else '0' for card in c) )
